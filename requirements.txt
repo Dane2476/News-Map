@@ -1,6 +1,7 @@
 cs50
 feedparser
 Flask
+psycopg2
 
 #Heroku
 

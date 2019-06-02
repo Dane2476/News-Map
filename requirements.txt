@@ -4,4 +4,4 @@ Flask
 
 #Heroku
 
-gunicorn
+gunicorn==19.9.0

@@ -16,8 +16,6 @@ if not os.getenv("DATABASE_URL"):
 #Set up Database
 db = SQL(os.getenv("DATABASE_URL"))
 
-
-
 # Ensure responses aren't cached
 @app.after_request
 def after_request(response):
